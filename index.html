@@ -44,14 +44,14 @@
 
 <div class="section-heading"><h2>Bio</h2></div>
 
-             <p> I am a research scientist at <a href="https://deepmind.com">DeepMind<a/>.
+             <p> I am a Senior Research Scientist at <a href="https://deepmind.com">DeepMind<a/>.
 	    I obtained a Ph.D. from the <a href="http://www.di.ens.fr/sierra">Sierra</a> and
    	     <a href="http://www.di.ens.fr/willow">Willow</a> groups. I was supervised by
              <a href="http://www.di.ens.fr/~slacoste/">Simon Lacoste-Julien</a>,
              <a href="http://www.di.ens.fr/~laptev/">Ivan Laptev</a> and
              <a href="http://www.di.ens.fr/~josef/">Josef Sivic</a>.
              Before that, I graduated from <a href="http://www.polytechnique.edu">Ecole polytechnique</a> and <a href="http://www.telecom-paristech.fr/">Telecom ParisTech</a> in 2015 and got a Masters Degree in Mathematics, Machine Learning and Computer Vision (<a href="http://www.math.ens-cachan.fr/version-francaise/formations/master-mva/">MVA</a>).
-             My work focuses on structured learning from video and natural language. 
+             My work focuses on structured learning from video and natural language.
 More details can be found in my <a href="./resume.pdf">resume</a>.
              </p>
 
@@ -59,12 +59,20 @@ More details can be found in my <a href="./resume.pdf">resume</a>.
 
 <div class="section-heading"><h2>Invited talks</h2></div>
 
- <div class="paper">
+<div class="paper">
+<div class="title">Representation Learning from Unlabeled Narrated Videos</center></div>
+<div class="in">Computer Vision and Deep Learning Summit, <span>Machine Can See</span> 2020.</div>
+<div class="links">
+[<a href="http://machinescansee.com/">Summit website</a>]
+[<a href="https://www.youtube.com/watch?v=3yYobomGP-c">Video</a>]
+</div>
+
+<div class="paper">
 <div class="title">Learning from Narrated Videos</center></div>
 <div class="in">The 3rd Workshop on YouTube-8M Large-Scale Video Understanding, <span>ICCV</span> 2019.</div>
 <div class="links">
- [<a href="https://research.google.com/youtube8m/workshop2019/">YT8M workshop</a>]
- [<a href="talks/yt8m_alayrac.pdf">slides</a>]
+[<a href="https://research.google.com/youtube8m/workshop2019/">YT8M workshop</a>]
+[<a href="talks/yt8m_alayrac.pdf">slides</a>]
 </div>
 
 <!-- List of publications -->
@@ -72,22 +80,105 @@ More details can be found in my <a href="./resume.pdf">resume</a>.
              <div class="section-heading"><h2>Publications</h2></div>
 
              <div class="paper">
+               <div class="title">RareAct: A video dataset of unusual interactions</center></div>
+               <div class="authors">Antoine Miech, Jean-Baptiste Alayrac, Ivan Laptev, Josef Sivic and Andrew Zisserman.</div>
+               <div class="in">In arXiv</div>
+               <div class="links">
+                 [<a href="https://arxiv.org/abs/2008.01018">arXiv</a>]
+                 [<a href="https://github.com/antoine77340/RareAct">webpage</a>]
+                 [<a href="#/" data-toggle="collapse" data-target=".bibtex-12">bibtex</a>]
+                   <pre class="bibtex-12 collapse">
+@article{miech2020rareact,
+   title={RareAct: A video dataset of unusual interactions},
+   author={Miech, Antoine and Alayrac, Jean-Baptiste and Laptev, Ivan and Sivic, Josef and Zisserman, Andrew},
+   journal={arXiv preprint arXiv:2008.01018},
+   year={2020}
+ }
+}</pre>
+                 </div>
+            </div>
+
+            <div class="paper">
+              <div class="title">Self-Supervised MultiModal Versatile Networks</center></div>
+              <div class="authors"><b>Jean-Baptiste Alayrac*</b>, Adrià Recasens*, Rosalia Schneider*, Relja Arandjelović*, Jason Ramapuram, Jeffrey De Fauw, Lucas Smaira, Sander Dieleman, Andrew Zisserman.</div>
+              <div class="in">To appear in <span>NeurIPS</span> 2020. *equal contribution.</div>
+              <div class="links">
+                [<a href="https://arxiv.org/abs/2006.16228">arXiv</a>]
+                [<a href="#/" data-toggle="collapse" data-target=".bibtex-13">bibtex</a>]
+                  <pre class="bibtex-13 collapse">
+@article{alayrac2020self,
+  title={Self-Supervised MultiModal Versatile Networks},
+  author={Alayrac, Jean-Baptiste and Recasens, Adri{\`a} and Schneider, Rosalia and Arandjelovi{\'c}, Relja and Ramapuram, Jason and De Fauw, Jeffrey and Smaira, Lucas and Dieleman, Sander and Zisserman, Andrew},
+  journal={arXiv preprint arXiv:2006.16228},
+  year={2020}
+}
+}</pre>
+                </div>
+           </div>
+
+           <div class="paper">
+             <div class="title">Learning Actionness via Long-range Temporal Order Verification</center></div>
+             <div class="authors">Dimitri Zhukov, <b>Jean-Baptiste Alayrac</b>, Ivan Laptev and Josef Sivic.</div>
+             <div class="in">In <span>Proc. ECCV</span> 2020.</div>
+             <div class="links">
+               [<a href="https://www.di.ens.fr/willow/pdfs/eccv20dimitri.pdf">paper</a>]
+               [<a href="https://www.di.ens.fr/willow/research/orderverification/">webpage</a>]
+               [<a href="#/" data-toggle="collapse" data-target=".bibtex-15">bibtex</a>]
+                 <pre class="bibtex-15 collapse">
+   @InProceedings{zhukov20,
+           author       = "Zhukov, D. and Alayrac, J.-B. and Laptev, I. and Sivic, J."
+           title        = "Learning Actionness via Long-range Temporal Order Verification",
+           booktitle    = "ECCV",
+           year         = "2020",
+           }
+}</pre>
+               </div>
+          </div>
+
+           <div class="paper">
+             <div class="title">Learning to Segment Actions from Observation and Narration</center></div>
+             <div class="authors">Daniel Fried, <b>Jean-Baptiste Alayrac</b>, Phil Blunsom, Chris Dyer, Stephen Clark, Aida Nematzadeh
+.</div>
+             <div class="in">In <span>Proc. ACL</span> 2020.</div>
+             <div class="links">
+               [<a href="https://arxiv.org/abs/2005.03684">arXiv</a>]
+               [<a href="https://www.aclweb.org/anthology/2020.acl-main.231/">ACL</a>]
+               [<a href="https://slideslive.com/38929315/learning-to-segment-actions-from-observation-and-narration">Talk</a>]
+               [<a href="#/" data-toggle="collapse" data-target=".bibtex-14">bibtex</a>]
+                 <pre class="bibtex-14 collapse">
+ @inproceedings{fried-etal-2020-learning,
+     title = "Learning to Segment Actions from Observation and Narration",
+     author = "Fried, Daniel  and
+       Alayrac, Jean-Baptiste  and
+       Blunsom, Phil  and
+       Dyer, Chris  and
+       Clark, Stephen  and
+       Nematzadeh, Aida",
+     booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+     year = "2020",
+ }
+}</pre>
+               </div>
+          </div>
+
+             <div class="paper">
                <div class="title">End-to-End Learning of Visual Representations from Uncurated Instructional Videos</center></div>
                <div class="authors">Antoine Miech*, <b>Jean-Baptiste Alayrac*</b>, Lucas Smaira, Ivan Laptev, Josef Sivic and Andrew Zisserman.</div>
-               <div class="in"><span>To appear in</span> CVPR20. (oral) *equal contribution.</div>
+               <div class="in">In <span>Proc. CVPR</span> 2020. (oral) *equal contribution.</div>
                <div class="links">
                  [<a href="https://arxiv.org/abs/1912.06430">arXiv</a>]
+                 [<a href="https://www.youtube.com/watch?v=e6t-95DauuM">Talk</a>]
                  [<a href="https://tfhub.dev/deepmind/mil-nce/i3d/1">TF I3D model</a>]
                  [<a href="https://tfhub.dev/deepmind/mil-nce/s3d/1">TF S3D model</a>]
                  [<a href="https://github.com/antoine77340/S3D_HowTo100M">PyTorch S3D model</a>]
-                 [<a href="https://www.di.ens.fr/willow/research/mil-nce/">webpage</a>] 
-                 [<a href="http://howto100m.inria.fr/youcook">YouCook2 demo</a>] 
+                 [<a href="https://www.di.ens.fr/willow/research/mil-nce/">webpage</a>]
+                 [<a href="http://howto100m.inria.fr/youcook">YouCook2 demo</a>]
                  [<a href="#/" data-toggle="collapse" data-target=".bibtex-11">bibtex</a>]
                    <pre class="bibtex-11 collapse">
-@article{miech2019end2end,
+@InProceedings{miech2019end2end,
   title={{E}nd-to-{E}nd {L}earning of {V}isual {R}epresentations from {U}ncurated {I}nstructional {V}ideos},
   author={Miech, Antoine and Alayrac, Jean-Baptiste and Smaira, Lucas and Laptev, Ivan and Sivic, Josef and Zisserman, Andrew},
-  journal={arXiv preprint arXiv:1912.06430},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)},
   year={2019}
 }</pre>
                  </div>
@@ -96,15 +187,15 @@ More details can be found in my <a href="./resume.pdf">resume</a>.
              <div class="paper">
                <div class="title">Visual Grounding in Video for Unsupervised Word Translation</center></div>
                <div class="authors">Gunnar Sigurdsson, <b>Jean-Baptiste Alayrac</b>, Aida Nematzadeh, Lucas Smaira, Mateusz Malinowski, Joao Carreira, Phil Blunsom and Andrew Zisserman.</div>
-               <div class="in"><span>To appear in</span> CVPR20.</div>
+               <div class="in">In <span>Proc. CVPR</span> 2020.</div>
                <div class="links">
                  [<a href="https://arxiv.org/abs/2003.05078">arXiv</a>]
                  [<a href="#/" data-toggle="collapse" data-target=".bibtex-10">bibtex</a>]
                    <pre class="bibtex-10 collapse">
-@article{sigurdsson2020visual,
+@InProceedings{sigurdsson2020visual,
   title={Visual Grounding in Video for Unsupervised Word Translation},
   author={Sigurdsson, Gunnar A and Alayrac, Jean-Baptiste and Nematzadeh, Aida and Smaira, Lucas and Malinowski, Mateusz and Carreira, Jo{\~a}o and Blunsom, Phil and Zisserman, Andrew},
-  journal={arXiv preprint arXiv:2003.05078},
+  booktitle={Computer Vision and Pattern Recognition (CVPR)},
   year={2020}
 }</pre>
                  </div>
@@ -117,7 +208,7 @@ More details can be found in my <a href="./resume.pdf">resume</a>.
                  [<a href="https://arxiv.org/abs/1906.03327">arXiv</a>]
                  [<a href="https://www.di.ens.fr/willow/research/howto100m/">webpage</a>]
                  [<a href="papers/howto100m_poster.pdf">poster</a>]
-                 [<a href="https://github.com/antoine77340/howto100m">GitHub</a>]                
+                 [<a href="https://github.com/antoine77340/howto100m">GitHub</a>]
                  [<a href="#/" data-toggle="collapse" data-target=".bibtex-9">bibtex</a>]
                    <pre class="bibtex-9 collapse">
 @InProceedings{miech2019howto100m,
@@ -297,7 +388,7 @@ More details can be found in my <a href="./resume.pdf">resume</a>.
                 <div class="in">In <span>TPAMI</span> 2017 (Journal version of <span>Unsupervised learning from narrated instruction videos</span>) </div>
 
                 <div class="links">
-                    [<a href="https://hal.archives-ouvertes.fr/hal-01580630">Paper on Hal</a>]  
+                    [<a href="https://hal.archives-ouvertes.fr/hal-01580630">Paper on Hal</a>]
 
                 </div>
 
@@ -447,7 +538,7 @@ More details can be found in my <a href="./resume.pdf">resume</a>.
             <div class="course">
                 Simple sketch recognizer used in an exhibition at <a href="http://www.palais-decouverte.fr/en/home/">Palais de la Découverte</a>.
               <div class="links">
-                 
+
                     [<a href="https://github.com/jalayrac/sketch-recognizer">GitHub</a>]
                     [<a href="http://www.palais-decouverte.fr/fr/au-programme/expositions-permanentes/informatique-et-sciences-du-numerique/visite-libre/">Exhibition</a>]
 
